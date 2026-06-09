@@ -35,7 +35,7 @@ export default function Admin() {
                     <h3 className="course-title">{app.course_name} (ID: {app.id})</h3>
                     <h4 className="course-user">{app.fio}, {app.email}, {app.phone} (ID: {app.user_id})</h4>
                     <div className="course-date">Идёт с {new Date(app.start_date).toLocaleString()}</div>
-                    <div className="course-payment">Способ оплаты: {app.payment_method}</div>
+                    <div className="course-payment">Способ оплаты: {app.payment}</div>
                     <div className="app-status">Статус:</div>
                     <select value={app.status} onChange={(e) => handleChangeStatus(app.id, e.target.value)}>
                         <option value="Новая">Новая</option>

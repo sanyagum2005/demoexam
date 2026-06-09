@@ -8,6 +8,7 @@
 .create-form {
     display: flex;
     flex-direction: column;
+    width: 35%;
 }
 
 .course-select {
@@ -21,15 +22,15 @@
     resize: none;
     border-radius: 5px;
     justify-self: end;
-    background-color: cornflowerblue;
-    border: 2px solid blue;
+    background-color: #E6E6FA;
+    border: 2px solid #BCB88A;
 }
 
 .create-btn {
     margin-top: 3%;
-    width: 35%;
-    border: 3px solid blue;
+    width: 100%;
+    border: 3px solid black;
     border-radius: 10px;
-    background-color: cornflowerblue;
+    background-color: #E6E6FA;
     cursor: pointer;
 }
