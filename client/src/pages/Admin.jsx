@@ -39,8 +39,8 @@ export default function Admin() {
                     <div className="app-status">Статус:</div>
                     <select value={app.status} onChange={(e) => handleChangeStatus(app.id, e.target.value)}>
                         <option value="Новая">Новая</option>
-                        <option value="Идет обучение">Идет обучение</option>
-                        <option value="Обучение завершено">Обучение завершено</option>
+                        <option value="Мероприятие назначено">Мероприятие назначено</option>
+                        <option value="Мероприятие завершено">Мероприятие завершено</option>
                     </select>
                     {app.review && (
                         <>
